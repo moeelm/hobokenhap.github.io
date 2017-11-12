@@ -1,0 +1,91 @@
+.logo{
+   background-radius: 45%;
+}
+.body{
+  background-COLOR: #355C7D;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: azure;
+    padding-left: 98px;
+}
+p{
+    color:azure;
+}
+#form{
+    margin-left: 100px;
+}
+
+
+.entry{
+background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+      border: 2px solid red;
+    border-radius: 4px;
+      background-color: #3CBC8D;
+    color: black;
+    font-family: lucida;
+    font-weight: 3px;
+    font-size: 17px;
+     background-color: white;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png');
+   background-size: 24px;
+   
+    padding-left: 40px;
+}
+
+
+
+.button {
+    height: 40px;
+    width: 200px;
+    padding: 15px 25px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: left;
+            text-decoration: none;
+            display: inline-block;
+    font-size: 16px;
+    
+}
+
+#textbar {
+    width: 1000px;
+    height: 25px;
+}
+
+#textbar {
+    width: 1000px;
+    height: 25px;
+}
+
+#textbar {
+    width: 1000px;
+    height: 25px;
+}

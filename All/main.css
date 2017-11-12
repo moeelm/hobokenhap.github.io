@@ -21,12 +21,66 @@ body {
     height: 10%;
 }
 
+
+.button1 {
+    padding-right: 20px;
+    height: 40px;
+    width: 200px;
+    padding: 15px 25px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button1:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.entry{
+background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+}
+input[type=text]{
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 3s ease;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+      border: 2px solid red;
+    border-radius: 4px;
+      background-color: #3CBC8D;
+    color: black;
+    font-family: lucida;
+    font-weight: 3px;
+    font-size: 17px;
+     background-color: white;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png');
+   background-size: 24px;
+   
+    padding-left: 40px;
+}
+
+input[type=text]:focus {
+    width: 65%;
+
+}
+
 #centerButton {
+    padding right: 20px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-
+.spaaace{
+    padding-left: 20px;
+}
 .top_picture{
     /*
     background-image: url("party2.jpg");
@@ -114,8 +168,8 @@ body {
 
 .events{
     font-family: 'Montserrat';
-    color: white;
-    font-size:30px;
+  color: #002f6c;
+      font-size:30px;
     text-align: center;
     font-weight:bold;
 }

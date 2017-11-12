@@ -1,0 +1,83 @@
+body{
+    background-color: #2A363B;
+}
+.opaque {
+    opacity: 0.8;
+}
+.sat{
+    saturation: 150%;
+}
+.pad{
+    padding-top:100px;
+}
+.logo{
+    border-radius: 45%;
+}
+.create{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+   /* transform: translate(-50%, -50%);*/
+    display:inline;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    margin-left: -450px;
+    /*
+    position: relative;
+    text-align: center; */
+}
+.attend{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+   /* transform: translate(-50%, -50%);*/
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    display: inline;
+    margin-left: 40px; /*
+    position: retive;
+    text-align: center; */
+}
+/*
+.around{
+    text-align: center;
+} 
+
+.bottom-left {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+.top-right {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
