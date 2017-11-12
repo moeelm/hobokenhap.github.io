@@ -1,0 +1,292 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/*
+.logo{
+    background-image: url("logo.png");
+}
+*/
+body {
+    background: #fff;
+    color: #545454;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+
+    padding: 2em 2em 4em;
+}
+.spaceholder{
+    height: 10%;
+}
+
+#centerButton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.top_picture{
+    /*
+    background-image: url("party2.jpg");
+    */
+    background-image: url("tenor.gif");
+    height:300px;
+    align-content: center;
+    -webkit-filter:opacity(70%);
+    
+    filter:opacity(70%);
+
+    
+    
+ /*
+ opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+    z-index: -1;    */
+}
+.headingdiv{
+    width: auto;
+    align-content: center;
+    text-align: center;
+    height: 15%;
+
+}
+
+
+.h1font
+{
+    font-family:'Montserrat', sans-serif;
+	
+    color: #6d5c7d;
+    /*
+
+	text-shadow: 5px 5px #181c76;
+    */
+	font-size: 200%;
+	/*background-color: white;*/
+    text-align: center;
+    font-weight: bold;
+}
+
+.greyspace{
+    color:#eceff1;
+}
+.button {
+    background-color:#c16c86;
+    height: 50px;
+    width: 200px;
+	padding: 15px 25px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Montserrat';
+  font-weight:bold;
+ 
+}
+
+.button:active {
+
+  	transform: translateY(1px);
+}
+.text{
+    
+    color: white;
+    font-size: 60px;
+    font-family: 'Montserrat';
+    padding-top:0px;
+    font-weight: bold;
+    
+}
+
+.purp{
+    margin-top: 10px;
+    background-color: #ffcdd2;
+    height: auto;
+    width:auto;
+}
+
+.events{
+    font-family: 'Montserrat';
+    color: white;
+    font-size:30px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.events2{
+    font-family:'Montserrat';
+    color: #002f6c;
+    font-size: 15px;
+    text-align:center;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
+.logo{
+    border-radius: 45%;
+    
+}
+.block{
+    
+    background-color:palevioletred;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-content: justify;
+    width: 100%;
+
+}
+
+
+.pad{
+    padding-left: 180px;
+    padding-right: 90px;
+    
+}
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+.resize {
+  width:70px;
+  height:70px;
+}
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+    align-content: center;
+    display: inline;
+    padding-bottom: 20px;
+	}
+	ul#horizontal-list li {
+        
+		display: inline;
+    
+	}
+
+.text4{
+    font-family: 'Montserrat';
+    font-size:25px;
+    color:whitesmoke;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-weight: lighter;
+}
+.text5{
+    font-family: 'Montserrat';
+    font-size:30px;
+    color:whitesmoke;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+
+.morespace{
+    height: 50px;
+    background-color:white;
+}
+
+.final{
+    font-family: 'Montserrat';
+    font-weight: 100;
+    
+}
+
+
+
+/*
+.entry{
+background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type=text]{
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 3s ease;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /* 
+    border: 2px solid red;
+    
+    border-radius: 4px;
+    /*
+      background-color: #3CBC8D;
+    
+    color: black;
+    font-family: lucida;
+    font-weight: 3px;
+    font-size: 17px;
+     background-color: white;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png');
+   background-size: 24px;
+
+    padding-left: 40px;
+}
+input[type=text]:focus {
+    width: 65%;
+
+}
+
+}
+/*
+
+
+/*DEFAULT CLASSES */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+
+}
